@@ -1,0 +1,1 @@
+belongs_to_health_class(test, low-sugar).
