@@ -1,29 +1,24 @@
-import React from 'react';
-import { Toaster } from 'react-hot-toast';
-import AppContent from './components/AppContent';
-import AppHeader from './components/AppHeader';
-import PageTitle from './components/PageTitle';
-import styles from './styles/modules/app.module.scss';
+import "./App.css";
+import AllRoutes from "./Routes";
+import CartEmpty from "./component/Rahul/Cart/CartEmpty";
+import CartPage from "./component/Rahul/Cart/CartPage";
+import Navbar2 from "./component/Rahul/Navbar2"; 
+import PaymentPage from "./component/Rahul/PaymentPage/PaymentPage";
+ 
 
 function App() {
+ 
+
+  
   return (
-    <>
-      <div className="container">
-        <PageTitle>TODO List</PageTitle>
-        <div className={styles.app__wrapper}>
-          <AppHeader />
-          <AppContent />
-        </div>
-      </div>
-      <Toaster
-        position="bottom-right"
-        toastOptions={{
-          style: {
-            fontSize: '1.4rem',
-          },
-        }}
-      />
-    </>
+    <div className="App">
+
+   <AllRoutes />
+   {/* <Navbar2 /> */}
+{/* <CartEmpty /> */}
+{/* <CartPage /> */}
+{/* <PaymentPage /> */}
+    </div>
   );
 }
 
