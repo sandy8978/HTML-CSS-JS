@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2ecec;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+
+
+
+    }
+    .background{
+      background-image: url(imges\\5.webp);
+      width: 100%;
+      height: 150vh;
+
+    }
+
+    .login-container {
+      
+      box-shadow: 0 0 10px rgba(211, 24, 24, 0.1);
+      padding: 20px;
+      border-radius: 8px;
+      width: 300px;
+      
+    }
+
+    .login-container label {
+      display: block;
+      margin-bottom: 8px;
+    }
+
+    .login-container input {
+      width: 100%;
+      padding: 8px;
+      margin-bottom: 16px;
+      
+      border-radius: 25px;
+    }
+
+    .login-container button {
+      background-color: #4caf50;
+      color: white;
+      padding: 10px;
+      border: none;
+      border-radius: 25px;
+      cursor: pointer;
+      width: 105%;
+    }
+
+    .login-container button:hover {
+      background-color: #45a049;
+    }
+  </style>
+</head>
+<body class="background">
+  
+
+
+<div class="login-container">
+  <h1>Login</h1>
+  <form id="loginForm">
+    <label for="username"><p style="color:rgb(105, 224, 224);;">Username:</p></label>
+    <input type="text" id="username" name="username" required>
+
+    <label for="password"><p style="color: rgb(103, 225, 225);">Password:</p></label>
+    <input type="password" id="password" name="password" required>
+
+    <button type="button" onclick="login()">Login</button>
+  </form>
+</div>
+
+
+<script>
+  function login() {
+    var enteredUsername = document.getElementById("username").value;
+    var enteredPassword = document.getElementById("password").value;
+
+   
+    var validUsername = "Sandeep";
+    var validPassword = "Sandy";
+
+   
+    if (enteredUsername === validUsername && enteredPassword === validPassword) {
+      alert("Login successful!");
+      
+      // Redirect to the home page
+      window.location.href = "acc.html";
+    } else {
+      alert("Invalid username or password. Please try again.");
+    }
+  }
+
+</script>
+
+</body>
+</html>

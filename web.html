@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development</title>
+    <link rel="stylesheet" href="../Task/node_modules/bootstrap-icons/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+</head>
+<style>
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }
+
+    section {
+      padding: 20px;
+    }
+
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+    nav {
+      background-color: #eee;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #333;
+      margin: 0 10px;
+    }
+    /* Reset some default styles */
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Navigation styles */
+nav {
+  background-color: #eee;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: #333;
+  margin: 0 10px;
+}
+
+/* Section styles */
+section {
+  padding: 20px;
+}
+
+/* Carousel styles */
+.carousel {
+  width: 70%;
+  margin: auto;
+}
+
+.carousel-inner img {
+  width: 100%;
+}
+
+.carousel-item {
+  text-align: center;
+}
+
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+/* Content styles */
+.container-fluid {
+  padding: 0;
+}
+
+.container-fluid p,
+.container-fluid h2,
+.container-fluid h3,
+.container-fluid h4,
+.container-fluid h5,
+.container-fluid h6,
+.container-fluid h7,
+.container-fluid h8,
+.container-fluid h9,
+.container-fluid h10,
+.container-fluid h11,
+.container-fluid h12,
+.container-fluid h13,
+.container-fluid h14 {
+  margin: 10px 0;
+}
+
+.container-fluid img {
+  width: 100%;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .carousel {
+    width: 100%;
+  }
+}
+
+  </style>
+
+    <body class="container-fluid">
+
+        <header>
+            <h1>Academy</h1>
+          </header>
+
+          <nav>
+            <a href="./acc.html">Home</a>
+            <a href="./courese.html">Coureses</a>
+        </nav>
+
+        <div class="carousel carousel-dark slide mt-2" data-bs-ride="carousel" id="banner">
+            <div class="carousel-indicators">
+                <button data-bs-slide-to="0"  data-bs-target="#banner" ></button>
+                <button data-bs-slide-to="1" class="active"  data-bs-target="#banner"></button>
+                <button data-bs-slide-to="2"  data-bs-target="#banner" ></button>
+            </div>
+            <div class="carousel-inner">
+               
+                <div class="carousel-item active" data-bs-interval="2000">
+                    <img src="./imges/html.jpg" class="w-100  d-block">
+                    <h2>HTML:</h2>
+                    <p><b>Hyper means “beyond”Hyper text resembles text that contains content beyond what we see.</b></p>
+                    <p><b><q> What is a Markup Language?
+                        -	The markup is derived from common computer terminology, where “marking up” is the process of preparing for presentation. 
+                        -	Markup language is a presentation language
+                        -	It describes how to display information on the screen, but doesn't actually do it
+                        -	HTML (Hyper Text Markup Language)
+                        -	XML (eXtensible Markup Language)
+                        -	SGML (Standard Generalized Markup Language)
+                        -	SVG (Scalable Vector Graphics)
+                        Evolution of Markup Languages
+-	GML [Generic Markup Language] at “CERN” Labs
+-	SGML [Standard Generic Markup Language]
+-	Early 1990’s “Tim Berners Lee” introduced “HTML” for “Mosaic” browser. 
+-	IETF (Internet Engineering Task Force) 1993
+-	1995 HTML 2.0 
+-	1997 HTML 3.2
+-	1997 HTML 4.0
+-	1998 W3C (World Wide Web Consortium) formed
+-	1999 XHTML 1.0
+-	2006 XHTML 1.1
+-	2008 WHATWG (Web Hypertext Application Technology Working Group)
+-	2014 WHATWG and W3C merged into one organization
+-	2018 WHATWG published HTML 5.2
+-	2020 WHATWG published HTML 5.2
+-	2021 WHATWG published HTML 5.2
+-	WHATWG has been working with Microsoft since 2009
+-	Microsoft has been working with WHATWG since 2010
+-	Microsoft has been working with WHATWG since 2010
+</q></b>
+<h2>What is DOM?</h2>
+<p><b><q>The Document Object Model (DOM) is an API that allows you to interact with your web page as if you were
+    <p>The Document Object Model (DOM) is an API that allows programmers to access and manipulate web pages using JavaScript.</p>
+    <p>The Document Object Model (DOM) represents the structure of an HTML or XML document as a tree representation of its contents.</p>
+    <p><b><q>The Document Object Model (DOM) is an API that allows programmers to access and manipulate web pages using JavaScript.</q>
+        <img src="./imges/dom.jpg" alt="" width="50%">
+        <p>
+            -	Browser presents content in a hierarchy called DOM. 
+-	Document Object Model
+-	It is a hierarchy used to present contents in HTML
+What is Static DOM and Dynamic DOM? 
+-	The DOM which is initially loaded by HTML is static. 
+-	HTML can present static DOM. 
+-	Static DOM can’t handle interactions.
+-	JavaScript, jQuery, Angular JS, React etc. are used to convert the static DOM into dynamic DOM.
+<pre>
+    What is Element and What is Tag?
+-	HTML presents using Elements.
+-	Elements are built by using Tags. 
+</p>
+<pre>
+    Example: &lt;div&gt;&lt;/div&gt;
+    This div element represents an empty box that contains other elements.
+    </pre>
+    <pre>
+        Example: &lt;a href=&quot;https://www.google.com&quot;&gt;Google&lt;/a&gt;
+        In this example, "a" is tag and it's representing anchor element. It will be clicked when user clicks on Google link.
+        In this example, "a" tag represents anchor element. It's not just text but it also includes attributes like href.
+        In this example, "a" tag represents anchor link. It's not just text but it also includes URL information.
+        In this example, "a" tag represents anchor element. It's an interactive element.
+    </pre>
+    </pre>
+</div>
+                <div class="carousel-item" data-bs-interval="8000">
+                    <img src="./imges/css.jpg" class="w-100  d-block">
+                    <h2>CSS</h2>
+                    <p>
+                        CSS stands for Cascading Style Sheets. It describes how HTML documents should be displayed on screen or printed.
+                        CSS stands for Cascading Style Sheets.
+                        It helps us style our web pages.
+                        There are two types of selectors:
+                        1.	Element Selector (tag name)
+                        2.	Class Selector (.classname)
+                        We use these selectors to apply styles on specific elements or classes.
+                        Here is how we define a selector:
+                        .selector {
+                            property : value ;
+                            }
+                            For example:
+                            p {
+                                color : red ;
+                                font-size : 30px ;
+                                }
+                                The above code will change the text color to red and size to 30px for all paragraph tags.
+                                The above code will change all paragraph tags text color to red and size to 30 pixels.
+                                The above code will change all paragraph tags text color to red and size to 30 pixels.
+                                The above code will change the text color to red and size to 30px for all paragraph tags.
+                                The above code will change the text color to red and size to 30px for all paragraph tags.
+                                The above code will change all paragraph text color to red and size to 30 pixels.
+                                The above code will change the text color to red and size to 30 pixels for all paragraph tags in your webpage.
+                                The above code will change all paragraph text color to red and size to 30px.
+                                Another way to write css is inline styling which is not recommended as it makes your HTML file messy.
+                                Another way to write the same thing in css is as follows:
+                                p {
+                                    color : red !important ;
+                                    font-size : 30px !important ;
+                                    }
+                                    The exclamation mark (!) at the end of important makes it more important than any other conflicting rules.
+                                    In this case, important keyword makes sure that the properties are applied even if there are conflicting rules elsewhere in your CSS file.
+                                    But using important keyword is not recommended because it overrides any other rules set before it.
+                                    p {
+                                        background-color : yellow;
+                                        border : 5px solid black;
+                                        padding : 10px;
+                                        margin : 15px;
+                                        width : 40%;
+                                        height : auto;
+                                        display : inline-block;
+                                        }
+                                        In this case, I have used important keyword which makes sure that the properties override any other conflicting rules.
+                                    </p>
+                                    <h2>CSS Box Model</h2>
+                                    <p>The box model consists of content, padding, border, margin, and some additional properties.</p>
+                                    <div>
+                                        In HTML, every element has an invisible box around it called the CSS box model. This box contains content, padding, border, and
+                                        In CSS, every element has four areas that make up its box model: content, padding, border, and margin
+                                        In CSS, every element has four areas that make up its box model: Content, Padding, Border, and Margin.
+                                        In HTML, every element has an invisible box around it called the CSS box model. This box contains content, padding, border, and
+                                        CSS box model refers to the layout of an HTML element, including its content, padding, border, and margin. This concept allows you
+                                        CSS box model refers to the layout of an element's content, including its padding, border, margin, and background. It determ
+                                        CSS box model refers to the layout of an HTML element, including its content, padding, border, and margin. It consists of four
+                                        CSS box model consists of four parts - content, padding, border, and margin. These are used together to create space around an element
+                                        CSS box model refers to the layout of an element, including its content, padding, border, and margin. It consists of four parts
+                                        CSS box model consists of four parts: content, padding, border, and margin. It helps us control the layout of elements on our
+                                        CSS box model refers to how HTML elements are displayed on a webpage. It includes four parts - content, padding, border, and margin
+                                        CSS box model refers to how HTML elements are displayed on a webpage. It includes four parts - content, padding, border, and margin
+                                        CSS box model refers to how HTML elements are displayed on a webpage, including their content, padding, borders, margins, etc.
+                                        CSS box model refers to how HTML elements are displayed on a webpage, including their content, padding, borders, margins, and more
+                                        CSS box model refers to how HTML elements are displayed on a webpage, including their content, padding, border, margin, etc. It
+                                        CSS box model refers to how HTML elements are displayed on a webpage. It consists of four parts - content, padding, border, and
+                                        CSS box model refers to how HTML elements are displayed on a web page. It consists of four parts - content, padding, border,
+                                        CSS box model refers to how HTML elements are displayed on a webpage, including their content, padding, borders, margins, and more
+                                        <img src="https://www.w3schools.com/cssref/pic_boxmodel.gif" alt="">
+                                        </div>
+                                        <p>The CSS box model consists of content, padding, border, and margin.</p>
+                                        <ul>
+                                            <li><strong>Margin</strong>: The space outside an element.</li>
+                                            <li><strong>Border</strong>: A line that goes around an element.</li>
+                                            <li><strong>Border</strong>: A line that goes around the content of an element.</li>
+                                            <li><strong>Border</strong>: A line that goes around an element.</li>
+                                            <li><strong>Border</strong>: A line that goes around the entire box, including content and padding.</li>
+                                        </ul>
+                                        <ul>
+                                            <li><strong>Border</strong>: A line that goes around the outside of an element.</li>
+                                        </ul>
+                                    </div>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="carousel-item" data-bs-interval="4000">
+                    <img src="./imges/js.jpg" class="w-100  d-block">
+                    <h2>JavaScript</h2>
+                    <p>
+                        JavaScript is a programming language that conforms to the ECMAScript specification. Most of its syntax is based on Java but it also has some
+                        JavaScript is a high-level, interpreted programming language that conforms to the ECMAScript specification. It was designed to be highly interactive and
+                        JavaScript is a programming language that conforms to the ECMAScript specification. JavaScript was originally developed by Netscape for their Navigator browser
+                    </p>
+                    <h3>How JavaScript Works</h3>
+                    <p>
+                        In the browser, JavaScript is executed by a web browser’s JavaScript engine (e.g., V8 for Google Chrome). When you
+                    </p>
+                    <h5>What is JavaScript?</h5>
+                    <p>
+                        JavaScript, often abbreviated as JS, is a high-level programming language that conforms to the ECMAScript specification. It was
+                        JavaScript is a programming language used by web browsers to create interactive effects on websites. It was developed in the late 90s by N
+                        </p>
+                        <h6>The History of JavaScript</h6>
+                        <p>
+                            </p>
+                            <h7>A Brief History of JavaScript</h7>
+                            <p>
+                                </p>
+                                <h8>Early Versions of JavaScript</h8>
+                                <p>
+                                    </p>
+                                    <h9>HTML and JavaScript</h9>
+                                    <p>
+                                        </p>
+                                        <h10>JavaScript in the Browser</h10>
+                                        <p>
+                                            </p>
+                                            <h11>JavaScript Frameworks</h11>
+                                            <p>
+                                                </p>
+                                                <h12>JavaScript Libraries</h12>
+                                                <p>
+                                                    </p>
+                                                    <h13>Modern JavaScript</h13>
+                                                    <p>
+                                                        </p>
+                                                        <h14>ES6 Features</h14>
+                                                    </p>
+                                                    <h3>JAVASCRIPT DOM MANIPULATION</h3>
+                                                    
+                                                </div>
+                <button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#banner">
+                    <span class="carousel-control-prev-icon"></span>
+                </button>
+                <button class="carousel-control-next" data-bs-slide="next" data-bs-target="#banner">
+                    <span class="carousel-control-next-icon"></span>
+                </button>
+            </div>
+        </div>
+        <script src="./node_modules/jquery/dist/jquery.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+
+        <footer>
+            &copy; 2023 Academy. All rights reserved.
+          </footer>
+    </body>
+    
+
+</html>
